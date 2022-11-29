@@ -1,0 +1,8 @@
+FROM node:alpine
+WORKDIR /app
+COPY package*.json .
+RUN pnpm install
+COPY . .
+ENV PORT=8000
+EXPOSE 8000
+CMD [ "pnpm" , "start" ]

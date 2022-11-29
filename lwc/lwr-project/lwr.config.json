@@ -1,0 +1,17 @@
+{
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
+    "routes": [
+        {
+            "id": "Home",
+            "path": "/",
+            "contentTemplate": "$contentDir/home.md",
+            "layoutTemplate": "$layoutsDir/main_layout.njk"
+        },
+        {
+            "id": "About",
+            "path": "/about",
+            "contentTemplate": "$contentDir/about.md",
+            "layoutTemplate": "$layoutsDir/main_layout.njk"
+        }
+    ]
+}

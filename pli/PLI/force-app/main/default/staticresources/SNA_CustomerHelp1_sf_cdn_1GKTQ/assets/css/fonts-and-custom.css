@@ -1,0 +1,241 @@
+/**hide login button**/ div[class="themeUtil themeProfileMenu"] { display:none !important; }
+@font-face {
+    font-family: 'helveticaNeue';
+    src: url('/resource/PLI_LiveChatAssets/fonts/pli-fonts/HelveticaNeueLTW04-55Roman.woff') format('woff');
+}
+
+.skipLink {
+    position: absolute;
+    visibility: hidden!important;
+  }
+  
+.skipLink:focus {
+    top: 0;
+    visibility: visible !important;
+}
+/*exempt h1 for search scope list*/
+.forceSearchScopesList h1{
+    font-size : 18px !important
+}
+
+h1{font-size: 56px !important;}
+h2 {font-size: 24px !important;}
+h3 {font-size: 18px !important;}
+h4 {font-size: 16px !important;}
+
+.googleOpen {
+    height: 12px;
+}
+
+.visible-links > li:first-child { 
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.mainNavItem a:hover{
+    text-decoration: underline !important;
+    text-decoration-color: white !important;
+}
+
+.contentTitle {
+    font-size: 56px !important;
+}
+
+.search-input {
+ font-size: 16px !important;
+ color: #767676 !important;   
+}
+
+.singleListContainer{  
+    float: left ;
+    padding-left: 10px ;
+}
+
+.top-article-item {
+    text-decoration: none !important;
+}
+
+.top-article-item a:hover{
+    text-decoration: underline !important;    
+}
+
+.top-article-item a {
+    text-decoration: none !important;
+}
+
+.headlineTitle {
+    font-size: 32px !important;
+}
+
+.article-head{
+    font-size: 20px !important;
+    /*font-weight: bold !important ;*/
+}
+
+.summary .footer{
+    display: none !important;
+}
+
+/*.actualNode .content span {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}*/
+
+.selfServiceArticleHeaderDetail .meta{
+    display: none !important;
+}
+
+.comm-related-articles .slds-icon-utility-preview{
+    display: none !important;
+}
+
+.comm-related-articles .slds-icon-utility-preview + span{
+    display: none !important;
+}
+
+.Featured a::after {
+  content: "\2922";
+}
+
+
+.searchScroller .formattedTextLookupTitle {
+    font-size: 18px;
+}
+
+.forceCommunityThemeNav.navMenuType-expanded .mainNavItem .linkBtn.comm-navigation__top-level-item-link--active {
+    border-bottom: 2px solid white !important;
+}
+.backArrow svg{
+    fill:white;
+}
+
+ @media (min-width: 481px) {
+     .topicItem, .singleListContainer {
+        width: 33.33% !important ;
+    }
+
+
+
+}
+
+ @media (max-width: 481px) {
+     .topicItem, .singleListContainer {
+    	width: 100% !important ;
+	}
+    .navbar-items[c-navigationMenu_navigationMenu] {
+        font-size: 1rem !important;
+        height : 35px !important;
+    }
+
+}
+
+.hamburgerIcon svg{
+    fill: white;
+}
+
+.menuLink[c-navigationMenuItem_navigationMenuItem] hr[c-navigationMenuItem_navigationMenuItem]{
+    width: 95% !important;
+    margin: 2px auto 0 auto !important;
+    height: 0 !important;
+    border-top: 2px solid white !important;
+}
+
+.ui-widget .forceCommunityContactSupportForm .slds-page-header__title{
+    font-size:25px !important;
+}
+
+.ui-widget .forceCommunityCaseDeflection .slds-page-header__title{
+    font-size:25px !important;
+}
+
+.ui-widget .forceCommunityCaseDeflection{
+     border:rbg(3,3,3,);
+    margin-right:20px;
+    padding:15px;
+}
+
+.ui-widget .forceCommunityContactSupportForm {
+    border:rbg(3,3,3,);
+    margin-left:20px;
+    padding:15px;
+}
+
+/* Hide Arcticle information except 1st row */
+.selfServiceArticleLayout .forcePageBlockSectionRow ~ .forcePageBlockSectionRow{
+    display:  none;
+}
+.selfServiceArticleLayout .slds-form-element__label {
+    display: none;
+}
+/* search result title font size */
+.formattedTextLookupTitle {
+    font-size: 18px !important;
+}
+
+/* Bread Crumbs */
+.slds-breadcrumb__item a,.childTopic a {    
+    font-size: 16px;
+    color: white;
+    border-bottom: 1px dotted white;
+    padding: 0 !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.slds-breadcrumb__item:first-child a,.childTopic:first-child a{
+    margin-left: 0px;
+}
+.slds-breadcrumb__item a:hover , .childTopic a:hover{
+    color: #e4002b !important;
+    border-bottom: 1px dotted #e4002b;
+}
+
+/* search text */
+.searchText{
+    color : black !important;    
+}
+
+ @media (min-width: 1451px) {
+/* search text */
+.searchText{    
+    position: absolute;
+    display: block;
+    right: 15px;
+    width: 15%;    
+}
+
+}
+
+.forceCommunityTopicDescription {
+    display: none;
+}
+
+/* hide no articles */
+.listContent .emptyListContent {
+    display: none !important;
+    visibility: hidden;
+}
+
+.knowledgeui-result-stencil-date{
+    display:none;
+}
+.isNotPublishStatusOnline{
+    display:none;
+}
+.articleNumber{
+    display:none;
+}
+.slds-has-dividers_right>.slds-list__item, .slds-has-dividers--right>.slds-list__item, .slds-has-dividers_right>.slds-item, .slds-has-dividers--right>.slds-item {
+display: none;
+}
+
+.forceRecordLayout,forceCommunityCaseDeflection{
+font-size:16px;
+}
+.forceKnowledgeArticleThumbVote{
+font-size:16px;
+}
+
+.slds-hyphenate{
+font-size:16px;
+}
+:root { --dxp-c-section-columns-max-width: 1440px; }
